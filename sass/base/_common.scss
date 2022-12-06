@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    }
+    
+    *,*::before,*::after{
+    box-sizing: inherit;
+    }
+
+    body{
+        background-color: #FFFFFF;
+        color: var(--main-text-color);
+        font-family: Roboto,sans-serif;
+        
+        }
+
+        .line{
+            text-decoration: none;
+            }
+            
+            .link{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.14px;
+                letter-spacing: 0.02em;
+            }
+         
+img{
+display: block;
+ }
+
+a{
+  text-decoration: none;
+}
+
+header{
+    border-bottom: 1px solid #ECECEC;
+    }
+
+    .images h3{
+        color: var(--main-text-color);
+        }
+
+        

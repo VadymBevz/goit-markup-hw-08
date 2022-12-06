@@ -1,0 +1,60 @@
+.features p{
+    color: var(--text-color-second);
+    }
+    
+    .features{
+        display: flex;
+    }
+
+    .features-main{
+    padding-top: 94px;
+    }
+
+    .features__title{
+    
+    
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--main-text-color);
+    }
+    
+    .features__text{
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color-second);
+    }
+
+    .features-list{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        
+    
+    
+    }
+
+    .features-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F5F4FA;
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+        
+    }
+
+    .features__lists{
+        margin-right: 30px;
+        gap: 30px;
+    }

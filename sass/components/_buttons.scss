@@ -1,0 +1,16 @@
+.line-buttons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+
+    .button-item:not(:last-child) {
+    margin-right: 30px;
+    }
+
+    .buttons-all{
+    background-color:#FFFFFF
+    }
+
+    
