@@ -38,7 +38,7 @@ ul {
     max-width: 768px;
   }
 }
-@media screen and (min-width: 1200x) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -988,14 +988,14 @@ header {
   list-style: none;
   width: calc((100% - 30px) / 2);
 }
-@media screen and (min-width: 1200px) {
-  .clients-list__images {
-    width: calc((100% - 150px) / 6);
-  }
-}
 @media screen and (min-width: 768px) {
   .clients-list__images {
     width: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-list__images {
+    width: calc((100% - 150px) / 6);
   }
 }
 
