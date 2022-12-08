@@ -3,6 +3,7 @@
     }
     
     .features{
+        gap: 30px;
         display: flex;
         flex-wrap: wrap;
         @media screen and (min-width: 1200px) {
@@ -50,26 +51,26 @@
 
     .features-list{
         
-            gap: 30px;
+            
         
         list-style-type: none;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        
         
     
     
     }
 
     .features-card{
-        height: 100%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         background: #F5F4FA;
         border-radius: 4px;
-        width: 270px;
+        
         height: 120px;
         margin-bottom: 30px;
         
