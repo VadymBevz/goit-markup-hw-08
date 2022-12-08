@@ -4,9 +4,26 @@
     
     .features{
         display: flex;
+        flex-wrap: wrap;
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap; 
+            width: calc((100% - 90px) / 4);
+            } 
     }
 
     .features-main{
+        @media screen and (min-width: 480px) {
+            padding-top: 60px;
+            }
+            @media screen and (min-width: 768px) {
+                padding-top: 60px;
+                
+                } 
+        @media screen and (min-width: 1200px){
+            padding-top: 94px;
+        }
+        
+      
     padding-top: 94px;
     }
 
@@ -52,9 +69,25 @@
         height: 120px;
         margin-bottom: 30px;
         
+        
+    }
+
+    .features-card__symbol{
+        
+       width: 100%;
+
+        @media screen and (min-width: 768px) {
+            
+            width: calc((100% - 30px) / 2);
+            } 
+
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 90px) / 4);
+            } 
     }
 
     .features__lists{
         margin-right: 30px;
         gap: 30px;
+        flex-basis: auto;
     }
