@@ -73,20 +73,22 @@
 
     .features-card__symbol{
         
-       width: 100%;
-
-        @media screen and (min-width: 768px) {
-            
-            width: calc((100% - 30px) / 2);
-            } 
-
-        @media screen and (min-width: 1200px) {
-            width: calc((100% - 90px) / 4);
-            } 
+      
     }
 
     .features__lists{
-        margin-right: 30px;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+             
+         width: calc((100% - 30px) / 2);
+         } 
+ 
+     @media screen and (min-width: 1200px) {
+         width: calc((100% - 90px) / 4);
+         } 
+        
         gap: 30px;
         flex-basis: auto;
+       
     }

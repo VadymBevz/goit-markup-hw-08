@@ -443,24 +443,20 @@ header {
   margin-bottom: 30px;
 }
 
-.features-card__symbol {
+.features__lists {
   width: 100%;
+  gap: 30px;
+  flex-basis: auto;
 }
 @media screen and (min-width: 768px) {
-  .features-card__symbol {
+  .features__lists {
     width: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
-  .features-card__symbol {
+  .features__lists {
     width: calc((100% - 90px) / 4);
   }
-}
-
-.features__lists {
-  margin-right: 30px;
-  gap: 30px;
-  flex-basis: auto;
 }
 
 .pictures-line {
