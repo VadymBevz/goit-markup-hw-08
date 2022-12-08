@@ -425,6 +425,7 @@ header {
 }
 
 .features-list {
+  gap: 30px;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -433,6 +434,7 @@ header {
 }
 
 .features-card {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -445,7 +447,6 @@ header {
 
 .features__lists {
   width: 100%;
-  gap: 30px;
   flex-basis: auto;
 }
 @media screen and (min-width: 768px) {
@@ -455,6 +456,7 @@ header {
 }
 @media screen and (min-width: 1200px) {
   .features__lists {
+    margin-right: 30px;
     width: calc((100% - 90px) / 4);
   }
 }
@@ -522,10 +524,20 @@ header {
 }
 
 .comand-item {
+  width: 100%;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF;
-  margin-right: 30px;
+}
+@media screen and (min-width: 768px) {
+  .comand-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .comand-item {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .comand p {
