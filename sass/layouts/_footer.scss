@@ -9,6 +9,14 @@
     letter-spacing: 0.03em;
 }
 
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    display: flex;
+    align-items: center;
+}
+
 .studio-line-two{
 padding-top: 60px;
 }
@@ -41,11 +49,101 @@ margin-top: 9px;
 
 
 
+.footer-cont{
+flex-direction: column;
+    @extend %footer-container;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        @media screen and (max-width: 1199px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+}
+}
+
+
+.logo-adress{
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
+
 footer .container{
 
 display: flex;
 align-items: baseline;
 }
+
+.site-nav-two{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    @media screen and (min-width: 1200px) {
+        margin-top: 20px;
+        }
+    
+    @media screen and (max-width: 1199px) {
+        margin-top: 28px;
+    }
+}
+
+.log{
+    @media screen and (max-width: 1199px) {
+        font-size: 24px;
+        line-height: 1.16;
+        @media screen and (min-width: 1200px) {
+            margin-right: 93px;
+            font-size: 26px;
+            line-height: 1.19;
+        }
+    }
+}
+
+.footer-meil{
+    @media screen and (max-width: 1199px) {
+        margin-top: 0px;
+        margin-bottom: 12px;
+
+        &:last-child {
+                margin-bottom: 0px;
+            }
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;
+    }
+}
+
+.join-main{
+    @media screen and (max-width: 767px) {
+        margin-top: 60px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-left: 105px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}
+
+.join-title{
+    @media screen and (min-width: 1200px) {
+        margin-left: 7px;
+    }
+}
+
+
 
 
 .side-color{
