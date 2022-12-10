@@ -133,6 +133,20 @@
   color: #757575;
   margin-right: 466px;
 }
+@media screen and (max-width: 1199px) {
+  .modal-name {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-name {
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 
 .modal-input {
   max-width: 528px;
