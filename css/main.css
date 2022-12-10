@@ -1307,18 +1307,6 @@ header {
     text-align: center;
   }
 }
-@media screen and (min-width: 1200px) {
-  .login-footer-text {
-    display: block;
-    margin-top: 10px;
-    margin-left: 93px;
-  }
-}
-
-.footer-text {
-  margin-bottom: 20px;
-  display: block;
-}
 
 .join-title {
   margin-bottom: 20px;
@@ -1499,6 +1487,12 @@ footer .container {
   margin: 0;
   list-style: none;
 }
+@media screen and (min-width: 480px) {
+  .site-nav-two {
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .site-nav-two {
     margin-top: 20px;
@@ -1554,6 +1548,14 @@ footer .container {
 @media screen and (min-width: 480px) {
   .social-items {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .form-footer {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 140px;
   }
 }
 
