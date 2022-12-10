@@ -6,6 +6,30 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding-top: 93px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .backdrop {
+    padding-top: 208px;
+    padding-bottom: 207px;
+    padding-left: 159px;
+    padding-right: 159px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop {
+    padding-top: 221px;
+    padding-bottom: 222px;
+    padding-left: 536px;
+    padding-right: 536px;
+  }
+}
 
 .backdrop.is-hidden {
   opacity: 0;
@@ -27,6 +51,11 @@
 .close-button:hover {
   color: #2196F3;
 }
+@media screen and (min-width: 1200px) {
+  .close-button {
+    margin-top: 8px;
+  }
+}
 
 .modal {
   max-width: 528px;
@@ -46,6 +75,25 @@
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
+@media screen and (max-width: 479px) {
+  .backdrop.is-hidden .modal {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .backdrop.is-hidden .modal {
+    width: 100%;
+    max-width: 450px;
+    padding-top: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop.is-hidden .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 
 .modal-title {
   font-family: "Roboto";
@@ -57,6 +105,12 @@
   letter-spacing: 0.03em;
   margin-bottom: 12px;
   color: #212121;
+}
+@media screen and (max-width: 1199px) {
+  .modal-title {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .input-wrapper {
@@ -112,6 +166,27 @@
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .modal-form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .modal-form {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-form {
+    width: 528px;
+  }
 }
 
 .modal-icon {
