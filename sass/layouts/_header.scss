@@ -67,6 +67,10 @@
     
     .meil{
         margin-right: 50px;
+        @media screen and (min-width: 480px) {
+        
+            margin-right: 0;;
+        }
         
     }
     
@@ -143,6 +147,7 @@
     
     }
     .telefon a{
+        
         display: flex;
         align-items: center;
         font-family: 'Roboto';
@@ -152,7 +157,10 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--text-color-second);
+        @media screen and (min-width: 480px) {
         
+            display: ;
+        }
     }
 
     .info{

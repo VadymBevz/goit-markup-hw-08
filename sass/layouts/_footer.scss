@@ -24,15 +24,15 @@ padding-top: 60px;
 .studio-line{
 
 padding-top: 60px;
-padding-bottom: 20px;
+padding-bottom: 60px;
 }
 
 .studiotwo{
-    margin-right: 156px;
+    
 }
 
 .adress{
-    margin-right: 70px;
+    
 margin-top: 20px;
 
 }
@@ -47,9 +47,7 @@ margin-top: 9px;
 .telefon{
 margin-top: 9px;
 @media screen and (min-width: 480px) {
-    margin-right: 124px;
-    text-align: center;
-    justify-content: center;
+    
     }
    
     
@@ -75,7 +73,7 @@ flex-direction: column;
 .logo-adress{
     @media screen and (max-width: 1199px) {
         text-align: center;
-        margin-left: 163px;
+        
     }
     
     @media screen and (min-width: 1200px) {
@@ -117,8 +115,8 @@ align-items: baseline;
 .footer-meil{
     @media screen and (min-width: 480px) {
         
-        text-align: center;
-       justify-content: center;
+        
+       
         }
        
         
@@ -179,7 +177,7 @@ align-items: baseline;
 .footer-text{
     @media screen and (min-width: 480px) {
         
-        margin-right: 100px;
+        
         
     }
 }
