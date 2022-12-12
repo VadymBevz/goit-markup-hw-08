@@ -255,6 +255,10 @@ header {
 }
 .mob-menu > .container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 }
 @media screen and (min-width: 768px) {
   .mob-menu {
@@ -311,10 +315,11 @@ header {
   margin-bottom: 306px;
 }
 
-.menu-mob__telefon {
+.menu-mob__meil {
   display: block;
   margin-top: 32px;
   margin-bottom: 64px;
+  color: #2196F3;
 }
 
 .site-nav .item:not(:last-child) {
