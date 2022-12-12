@@ -247,6 +247,7 @@ header {
   width: 100vw;
   height: 100vw;
   top: 0;
+  left: 0;
   padding-top: 21px;
   padding-bottom: 21px;
   background-color: #FFFFFF;
@@ -1578,6 +1579,12 @@ header {
     flex-direction: row;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-cont {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .logo-adress {
@@ -1660,9 +1667,14 @@ footer .container {
 }
 @media screen and (min-width: 768px) {
   .form-footer {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .form-footer {
+    flex-direction: row;
   }
 }
 
