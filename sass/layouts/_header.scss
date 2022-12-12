@@ -5,8 +5,9 @@
     display: none;
     }
     @media screen and (min-width: 768px) {
-        display: block;
+        display: flex;
     }
+   
     }
 
     
@@ -42,6 +43,15 @@ padding-top: 21px;
 padding-bottom: 21px;
 background-color: #FFFFFF;
 z-index: 1;
+> .container{
+    height: 100%;
+}
+@media screen and (min-width: 768px) {
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    display: none;
+}
     }
 
 
@@ -153,7 +163,10 @@ color: #2196F3;
         @media screen and (min-width: 768px) {
             display: block;
         }
-    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            
+    }
     }
 
     .meilstyle{
@@ -171,7 +184,7 @@ color: #2196F3;
         margin-right: 50px;
         @media screen and (min-width: 480px) {
         
-            margin-right: 0;;
+            margin-right: 40;
         }
         
     }

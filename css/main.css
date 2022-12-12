@@ -213,7 +213,7 @@ header {
 }
 @media screen and (min-width: 768px) {
   .site-nav {
-    display: block;
+    display: flex;
   }
 }
 
@@ -251,6 +251,19 @@ header {
   padding-bottom: 21px;
   background-color: #FFFFFF;
   z-index: 1;
+}
+.mob-menu > .container {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mob-menu {
+    display: none;
+  }
 }
 
 .menu-close {
@@ -353,6 +366,11 @@ header {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .info {
+    display: flex;
+  }
+}
 
 .meilstyle {
   color: #757575;
@@ -369,7 +387,7 @@ header {
 }
 @media screen and (min-width: 480px) {
   .meil {
-    margin-right: 0;
+    margin-right: 40;
   }
 }
 
