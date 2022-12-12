@@ -62,12 +62,17 @@ flex-direction: column;
     @extend %footer-container;
     @media screen and (min-width: 768px) {
         display: flex;
-        @media screen and (max-width: 1199px) {
+       
+        }
+        @media screen and (max-width: 1199px){
             flex-wrap: wrap;
-            justify-content: center;
+        justify-content: space-around;
+        flex-direction: row;
         }
 }
-}
+
+
+
 
 
 .logo-adress{
@@ -131,7 +136,7 @@ align-items: baseline;
     }
 
     @media screen and (min-width: 768px) {
-        margin-left: 105px;
+        
     }
 
     @media screen and (max-width: 1199px) {
@@ -170,7 +175,7 @@ align-items: baseline;
         
         flex-direction: column;
         justify-content: center;
-        margin-right: 140px;
+        
     }
     @media screen and (min-width: 768px) {
         flex-direction: row;
