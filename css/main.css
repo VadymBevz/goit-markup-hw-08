@@ -205,7 +205,16 @@ header {
 
 .site-nav {
   margin-left: 93px;
-  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .site-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .site-nav {
+    display: block;
+  }
 }
 
 .site-nav .item:not(:last-child) {
@@ -247,6 +256,16 @@ header {
   margin-left: auto;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .info {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info {
+    display: block;
+  }
 }
 
 .meilstyle {
@@ -334,12 +353,6 @@ header {
   letter-spacing: 0.03em;
   color: var(--text-color-second);
 }
-@media screen and (min-width: 480px) {
-  .telefon a {
-    justify-content: center;
-  }
-}
-
 .info {
   align-items: center;
 }
@@ -1301,7 +1314,6 @@ header {
 
 .login-footer-text {
   color: #FFFFFF;
-  margin-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1309,7 +1321,6 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-left: 93px;
 }
 @media screen and (max-width: 1199px) {
   .login-footer-text {
@@ -1388,7 +1399,8 @@ header {
   border-radius: 4px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
-  width: 358px;
+  max-width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1433,7 +1445,7 @@ header {
 
 .studio-line {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .adress {
@@ -1455,10 +1467,11 @@ header {
     display: flex;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .footer-cont {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
   }
 }
 
@@ -1505,11 +1518,6 @@ footer .container {
     margin-top: 60px;
   }
 }
-@media screen and (min-width: 768px) {
-  .join-main {
-    margin-left: 105px;
-  }
-}
 @media screen and (max-width: 1199px) {
   .join-main {
     text-align: center;
@@ -1544,13 +1552,13 @@ footer .container {
   .form-footer {
     flex-direction: column;
     justify-content: center;
-    margin-right: 140px;
   }
 }
-
-@media screen and (min-width: 480px) {
-  .footer-text {
-    margin-right: 100px;
+@media screen and (min-width: 768px) {
+  .form-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 450px;
   }
 }
 

@@ -62,8 +62,10 @@ flex-direction: column;
     @extend %footer-container;
     @media screen and (min-width: 768px) {
         display: flex;
+        
        
         }
+        
         @media screen and (max-width: 1199px){
             flex-wrap: wrap;
         justify-content: space-around;
@@ -183,11 +185,7 @@ align-items: baseline;
         width: 450px;
     }
 
-    @media screen and (min-width: 1200px) {
-        flex-direction: row;
-        width: ;
-        justify-content: space-between;
-    }
+                                   
 }
 
 .footer-text{
