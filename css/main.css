@@ -271,6 +271,14 @@ header {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .is-hiden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
 .menu-close {
   display: block;
   margin-left: auto;
@@ -1479,7 +1487,9 @@ header {
 }
 @media screen and (min-width: 1200px) {
   .button-submit {
-    padding-right: 28px;
+    padding-left: 28px;
+    position: relative;
+    margin-top: 20px;
   }
 }
 
@@ -1528,6 +1538,7 @@ header {
   .form-input-footer {
     width: 358px;
     margin-right: 12px;
+    margin-top: 20px;
   }
 }
 
@@ -1666,6 +1677,7 @@ footer .container {
 
 @media screen and (min-width: 480px) {
   .form-footer {
+    width: 450px;
     flex-direction: column;
     justify-content: center;
   }
