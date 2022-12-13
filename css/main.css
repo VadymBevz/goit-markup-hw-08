@@ -585,6 +585,33 @@ header {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (min-width: 480px) {
+  .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+}
 
 .hero.button {
   cursor: pointer;
@@ -1141,23 +1168,6 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 480px) {
-  .modal-form {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .modal-form {
-    padding-bottom: 40px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-form {
-    width: 528px;
-  }
-}
-
 .modal-icon {
   position: absolute;
   left: 12px;
