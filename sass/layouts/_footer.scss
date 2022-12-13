@@ -60,17 +60,21 @@ margin-top: 9px;
 .footer-cont{
 flex-direction: column;
     @extend %footer-container;
-    @media screen and (min-width: 768px) {
+
+     @media screen and (min-width: 768px) {
         display: flex;
         
        
         }
-        
-        @media screen and (max-width: 1199px){
-            flex-wrap: wrap;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: row;
+       
         }
+        
+       
         @media screen and (min-width: 1200px) {
             flex-direction: row;
             justify-content: space-between;
@@ -151,14 +155,15 @@ align-items: baseline;
     }
 
     @media screen and (min-width: 1200px) {
-        margin-left: 70px;
-        margin-top: 10px;
+        
+        padding-top: 10px;
     }
 }
 
 .join-title{
     @media screen and (min-width: 1200px) {
         margin-left: 7px;
+        text-align: left;
     }
     @media screen and (min-width: 480px) {
         text-align: center;

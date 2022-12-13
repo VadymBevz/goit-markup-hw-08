@@ -217,10 +217,23 @@ header {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .studio {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
 .menu-open {
   background-color: transparent;
   border: none;
   margin-left: auto;
+}
+@media screen and (min-width: 480px) {
+  .menu-open {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media screen and (min-width: 768px) {
   .menu-open {
@@ -240,6 +253,12 @@ header {
 .menu-close {
   background-color: transparent;
   border: none;
+}
+@media screen and (min-width: 480px) {
+  .menu-close {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .mob-menu {
@@ -299,6 +318,10 @@ header {
   color: #757575;
 }
 
+.current-mob {
+  color: #2196F3;
+}
+
 .mob-soc {
   display: flex;
   list-style: none;
@@ -307,6 +330,26 @@ header {
   line-height: 1.2222222222;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+
+.mob-color {
+  color: #2196F3;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.mob-soc__links {
+  color: #2196F3;
+  position: relative;
+}
+
+.mob-soc__links::after {
+  content: "";
+  width: 22px;
+  height: 0px;
+  position: absolute;
+  background-color: #2196F3;
 }
 
 .mob-soc__lists:not(:last-child) {
@@ -325,6 +368,10 @@ header {
   display: block;
   margin-top: 32px;
   margin-bottom: 64px;
+  color: #2196F3;
+}
+
+.menu-mob__telefon {
   color: #2196F3;
 }
 
@@ -394,12 +441,14 @@ header {
   color: #2196F3;
 }
 
-.meil {
-  margin-right: 50px;
-}
 @media screen and (min-width: 480px) {
   .meil {
     margin-right: 40;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .meil {
+    margin-right: 50px;
   }
 }
 
@@ -459,7 +508,6 @@ header {
 }
 
 .telefon a {
-  display: flex;
   align-items: center;
   font-family: "Roboto";
   font-style: normal;
@@ -573,6 +621,7 @@ header {
 @media screen and (min-width: 480px) {
   .features-main {
     padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -695,8 +744,6 @@ header {
   gap: 30px;
   flex-wrap: wrap;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 @media screen and (min-width: 1200px) {
   .comand {
@@ -706,6 +753,7 @@ header {
 
 .comand-item {
   width: 100%;
+  padding-bottom: 24px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #FFFFFF;
@@ -1437,6 +1485,7 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 @media screen and (max-width: 1199px) {
   .login-footer-text {
@@ -1586,8 +1635,9 @@ header {
     display: flex;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .footer-cont {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
@@ -1650,14 +1700,14 @@ footer .container {
 }
 @media screen and (min-width: 1200px) {
   .join-main {
-    margin-left: 70px;
-    margin-top: 10px;
+    padding-top: 10px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .join-title {
     margin-left: 7px;
+    text-align: left;
   }
 }
 @media screen and (min-width: 480px) {

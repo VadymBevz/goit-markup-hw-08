@@ -186,23 +186,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 480px) {
-  .modal-form {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .modal-form {
-    padding-bottom: 40px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .modal-form {
-    width: 528px;
-  }
-}
-
 .modal-icon {
   position: absolute;
   left: 12px;
