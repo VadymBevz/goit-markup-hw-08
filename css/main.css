@@ -271,12 +271,10 @@ header {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .is-hiden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .menu-close {
